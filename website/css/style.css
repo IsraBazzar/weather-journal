@@ -1,0 +1,254 @@
+/* Color Palette
+Coolors Exported Palette - https://coolors.co/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c
+
+/* CSS HEX 
+--antique-brass: #cb997eff;
+--desert-sand: #ddbea9ff;
+--champagne-pink: #ffe8d6ff;
+--ash-gray: #b7b7a4ff;
+--artichoke: #a5a58dff;
+--ebony: #6b705cff;
+color: rgb(207, 125, 81);
+*/
+
+
+/* @media(max-width: 320px)
+     @media(min-width: 901px)
+     @media(min-width: 600px) and (max-width: 900px) */
+
+
+/*CSS rules to specify families
+
+font-family: 'Lato', sans-serif;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Splash', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/*background-image: linear-gradient(-225deg, #cb997eff 0%, #a5a58dff 29%, #6b705cff 67%, rgb(207, 125, 81) 100%);*/
+	background-color: rgb(121, 216, 243);
+	color: #ffe8d6ff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+#app {
+	display: grid;
+	/*grid-auto-rows: minmax(150px, auto);*/
+	/* grid-template-columns:  */
+	grid-template-rows: auto auto 1fr 1fr auto;
+	height: 100vh;
+	max-width: 700px;
+
+	background-image: linear-gradient(-225deg, #cb997eff 0%, rgb(47, 47, 143) 29%, rgb(121, 216, 243) 67%, rgb(207, 125, 81) 100%);
+	justify-content: center;
+	grid-gap: 1em;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	border-width: 5px;
+	border-radius: 10px;
+	box-shadow: #fff;
+	box-shadow: 30px;
+}
+
+a {
+	color: rgb(96, 40, 10);
+	font-weight: strong;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content-wrap {
+	max-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 60px 0;
+	align-content: center;
+}
+
+h1 {
+	font-family: 'Splash', cursive;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+	font-family: 'Oooh Baby', cursive;
+}
+
+header,
+footer {
+	text-align: center;
+}
+
+.title {
+    font-family: 'Oooh Baby', cursive;
+    font-weight: bold;
+    color: rgb(207, 125, 81);
+}
+
+.headline {
+	padding-top: 10px;
+}
+
+.main {
+	width: 80%;
+	float: left;
+	margin: 20px;
+	display: grid;
+}
+
+.holder {
+	background: rgba(253, 254, 255, 0.2);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding: 10px;
+}
+
+label {
+	padding-bottom: 5px;
+}
+
+input {
+	font-size: 20px;
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+textarea {
+	font-size: 14px;
+}
+
+button {
+	width: 420px;
+	height: 80px;
+	background: rgb(47, 47, 143);
+	color: #cb997eff;
+	font-size: 26px;
+	border: none;
+	box-shadow: 2px 4px 5px #444;
+}
+
+#generate:active {
+	transform: translateY(0);
+	background-color: #cb997eff;
+	color: rgb(47, 47, 143);
+}
+
+#generate:hover {
+	transform: translateY(-0.2rem);
+	background-color: #cb997eff;
+	color: rgb(47, 47, 143);
+	cursor: default
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	background-color: rgba(1, 8, 16, 0.1);
+}
+
+/* Style for Placeholder Text */
+::placeholder {
+	/* Firefox, Chrome, Opera */
+	color: rgb(47, 47, 143);
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: rgb(47, 47, 143);
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: rgb(47, 47, 143);
+}
+
+*/
+
+/* Footer Styles */
+footer {
+	width: 100%;
+	height: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+
+footer a {
+	color: #ffe8d6ff;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #6b705cff;
+	border-radius: 0.5em;
+	color: #ffe8d6ff;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+/* Style for Placeholder Text */
+::placeholder {
+	/* Firefox, Chrome, Opera */
+	color: rgb(47, 47, 143);
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: rgb(47, 47, 143);
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: rgb(47, 47, 143);
+}
+
+footer img {
+	width: 36px;
+	height: 36px;
+}
+
+footer li {
+	display: inline;
+}
+
+footer ul {
+	padding-left: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.socials {
+	margin-top: 5px;
+}

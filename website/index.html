@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <title>Weather Journal</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="icon" href="images/icons/favicon.png" />
+      <!-- Load Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oooh+Baby&family=Splash&display=swap" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
+   </head>
+   <body id="main">
+      <div id="app">
+         <div class="holder headline">
+            <h1>Weather Journal App</h1>
+         </div>
+         <div class="holder zip">
+            <label for="zip">Enter Zipcode here</label>
+            <input type="text" id="zip" placeholder="enter zip code here" />
+         </div>
+         <div class="holder feel">
+            <label for="feelings">How are you feeling today?</label>
+            <textarea class="myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+            <button id="generate" type="submit">Generate</button>
+         </div>
+         <div class="holder entry">
+            <div class="title">Most Recent Entry</div>
+            <div id="entryHolder">
+               <div id="date"></div>
+               <div id="temp"></div>
+               <div id="city"></div>
+               <div id="content"></div>
+            </div>
+         </div>
+         <footer class="page__footer">
+            <p>&copy; 2022 by Isra Bazzar</p>
+            <ul class="socials">
+               <li>
+                  <a href="mailto:isra2.badaha@gmail.com" title="Gmail">
+                  <img src="images/icons/icons8-gmail-48.png" alt="Gmail">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://github.com/IsraBazzar" title="Github">
+                  <img src="images/icons/icons8-github-48.png" alt="Github">
+                  </a>  
+               </li>
+               <li>
+                  <a href="https://www.linkedin.com/in/ibadaha/" title="LinkedIn">
+                  <img src="images/icons/icons8-linkedin-48.png" alt="LinkedIn">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.pinterest.com/isra2/" title="Pinterest">
+                  <img src="images/icons/icons8-pinterest-48.png" alt="Pinterest">
+                  </a>
+               </li>
+               <li>
+                  <a href="index.html" title="Website">
+                  <img src="images/icons/icons8-chrome-48.png" alt="Website">
+                  </a>
+               </li>
+            </ul>
+         </footer>
+      </div>
+      <script src="app.js" type="text/javascript"></script>
+   </body>
+</html>

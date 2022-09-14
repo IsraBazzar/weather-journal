@@ -6,8 +6,7 @@ const apiKey = '&appid=97b1cc26558e8d52ac7f310754ab0b55&units=imperial';
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
-
+let newDate = d.getMonth()+1 + '.' + d.getDate() + '.' + d.getFullYear();
 
 // Event listener to add function to existing HTML DOM element
 document.getElementById('generate').addEventListener('click', () => {
@@ -66,10 +65,10 @@ async function updateUI() {
       //console.log("data returned from the server"); //test
       //console.log(allData);
       //update elements with the received data
-      document.getElementById('date').textContent = "Date: " + allData.date;
-      document.getElementById('temp').textContent = allData.temp.temp + " degrees";
-      document.getElementById('city').textContent = allData.temp.name + " city";
-      document.getElementById('content').textContent = "Oh! I feel " + allData.content;
+      document.getElementById('date').innerHTML = "Date: " + allData.date;
+      document.getElementById('temp').innerHTML = allData.temp.temp + " degrees";
+      document.getElementById('city').innerHTML = allData.temp.name + " city";
+      document.getElementById('content').innerHTML = "Oh! I feel " + allData.content;
    } catch (error) {
       console.log("error", error);
    }
